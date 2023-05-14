@@ -21,7 +21,7 @@ header {
   color: #f9faf8;
 }
 .logo img {
-  width: 150px;
+  width: 170px;
   height: 200px;
   display: block; 
   margin-left: auto; 
@@ -283,3 +283,25 @@ footer a:hover {
   color: #fff176;
   transition: 0.3s;
 }
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  height: 30px;
+}
+
+.contact {
+  margin-top: 10px;
+}
+#typewriter {
+  border-right: 2px solid black; /* Add cursor effect */
+  animation: typing 1s steps(8) infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
